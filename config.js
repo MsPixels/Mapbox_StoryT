@@ -96,6 +96,26 @@ var config = {
             hidden: false,
             title: 'Third Title',
             image: 'images/source.png',
+            description: 'Copy these sections to add to your story.', //You can use html tags here //You can also upload a link to your video 
+            location: {
+                center: [-58.54195, -34.71600],
+                zoom: 4,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        //Add a chapter 
+        {
+            id: 'fifth-chapter',
+            alignment: 'full',
+            hidden: false,
+            title: 'Third Title',
+            image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-58.54195, -34.71600],
@@ -109,5 +129,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
+        
     ]
 };
