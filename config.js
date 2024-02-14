@@ -96,17 +96,18 @@ var config = {
             hidden: false,
             title: 'Third Title',
             image: 'images/source.png',
-            description: 'Copy these sections to add to your story.', //You can use html tags here //You can also upload a link to your video 
+            description: 'Copy these sections to add to your story.', //You can use html tags here //You can also upload a link to your video
+            //file:///Users/abaansah/Downloads/storytelling-main/src/helper.html - the linnk is from the zipped file that was downloaded 
             location: {
-                center: [-58.54195, -34.71600],
+                center: [-58.54195, -34.71600], //format is long lat
                 zoom: 4,
                 pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
+            callback: '', //You can add references to a different function
+            onChapterEnter: [], //You can add different layers here 
             onChapterExit: []
         },
         //Add a chapter 
