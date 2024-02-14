@@ -1,4 +1,5 @@
 var config = {
+    //This style can be called from the Mapbox studio platform
     style: 'mapbox://styles/alanacg/clrjmsn2r000b01p58f1p9cne',
     accessToken: 'pk.eyJ1IjoiYWxhbmFjZyIsImEiOiJjbHI2dTdmaTgyYmJkMmtteWg4aTFyYjd0In0.4egkQvHeJNw_VNBgcSEZmg',
     showMarkers: true,
