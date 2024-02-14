@@ -94,7 +94,7 @@ var config = {
             id: 'fourth-chapter',
             alignment: 'full',
             hidden: false,
-            title: 'Third Title',
+            title: 'Fourth Title',
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.', //You can use html tags here //You can also upload a link to your video
             //file:///Users/abaansah/Downloads/storytelling-main/src/helper.html - the linnk is from the zipped file that was downloaded 
@@ -115,7 +115,7 @@ var config = {
             id: 'fifth-chapter',
             alignment: 'full',
             hidden: false,
-            title: 'Third Title',
+            title: 'Fifth Title',
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
